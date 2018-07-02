@@ -2,10 +2,6 @@ html, body {
   height: 100%;
 }
 
-html {
-  background: #eee;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -17,18 +13,18 @@ body {
   height: 1080px;
   border-radius: 5px;
   box-shadow: 0 2px 30px rgba(black, .2);
-  background: lighten(#d1d1d1, 10%);
+  background: lighten(#EF5D5A, 10%);
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
 }
 
 .wave {
-  opacity: .4;
+  opacity: 1;
   position: absolute;
   top: 3%;
   left: 50%;
-  background: #d3d3d3;
+  background: #e8e8e8;
   width: 2000px;
   height: 2000px;
   margin-left: -250px;
@@ -40,12 +36,14 @@ body {
 
 .wave.-three {
   animation: drift 5000ms infinite linear;
+  opacity: 1;
+   background: #FFFFFF;
 }
 
 .wave.-two {
   animation: drift 7000ms infinite linear;
-  opacity: .1;
-  background: #b5b3b3;
+  opacity: 1;
+  background: #f97a7a;
 }
 
 .box:after {
@@ -61,12 +59,13 @@ body {
 }
 
 .title {
+  font-weight: bold;
   position: absolute;
   left: 0;
-  top: 100px;
+  top: 200px;
   width: 100%;
   z-index: 1;
-  line-height: 300px;
+  line-height: 100px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: black;
@@ -74,6 +73,23 @@ body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .4em;
   font-size: 50px;
+  text-indent: .3em;
+}
+
+.break {
+    position: absolute;
+  left: 0;
+  top: 300px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
   text-shadow: 0 1px 0 rgba(black, .1);
   text-indent: .3em;
 }
@@ -81,10 +97,10 @@ body {
 .link1 {
     position: absolute;
   left: 0;
-  top: 200px;
+  top: 350px;
   width: 100%;
   z-index: 1;
-  line-height: 300px;
+  line-height: 50px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: black;
@@ -99,10 +115,10 @@ body {
 .link2 {
     position: absolute;
   left: 0;
-  top: 250px;
+  top: 400px;
   width: 100%;
   z-index: 1;
-  line-height: 300px;
+  line-height: 50px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: black;
@@ -117,10 +133,46 @@ body {
 .link3 {
     position: absolute;
   left: 0;
-  top: 300px;
+  top: 450px;
   width: 100%;
   z-index: 1;
-  line-height: 300px;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+.link4 {
+    position: absolute;
+  left: 0;
+  top: 500px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+.link5 {
+    position: absolute;
+  left: 0;
+  top: 550px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: black;
