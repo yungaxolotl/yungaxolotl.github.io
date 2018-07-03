@@ -194,6 +194,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a:link {
+		color: black
+}
+
 @keyframes drift {
   from { transform: rotate(0deg); }
   from { transform: rotate(360deg); }
