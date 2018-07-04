@@ -41,9 +41,42 @@ body {
 }
 
 .wave.-two {
-  animation: drift 7000ms infinite linear;
+  animation: drift 7000ms infinite linear, colorchange alternate infinite;
   opacity: 1;
-  background: #f97a7a;
+  
+  animation-duration: 7s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+}
+
+}
+
+@keyframes colorchange
+{
+  0%,100% {background: #efa04c }
+  5% {background: #efe44c }
+  55% {background: #ef4c4c }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%,100% {background: #efa04c }
+  5% {background: #efe44c }
+  55% {background: #ef4c4c }
+}
+
+@-moz-keyframes colorchange /* Firefox */
+{
+  0%,100% {background: #efa04c }
+  5% {background: #efe44c }
+  55% {background: #ef4c4c }
+}
+
+@-o-keyframes colorchange /* Opera */
+{
+  0%,100% {background: #efa04c }
+  5% {background: #efe44c }
+  55% {background: #ef4c4c }
 }
 
 .box:after {
@@ -170,6 +203,78 @@ body {
     position: absolute;
   left: 0;
   top: 550px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+.link6 {
+    position: absolute;
+  left: 0;
+  top: 600px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+.link7 {
+    position: absolute;
+  left: 0;
+  top: 650px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+.link8 {
+    position: absolute;
+  left: 0;
+  top: 700px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+.link9 {
+    position: absolute;
+  left: 0;
+  top: 750px;
   width: 100%;
   z-index: 1;
   line-height: 50px;
