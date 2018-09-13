@@ -307,6 +307,25 @@ body {
   text-indent: .3em;
 }
 
+.link11 {
+    position: absolute;
+  left: 0;
+  top: 850px;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+
+
 a:visited {
     color: black;
 }
